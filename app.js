@@ -67,6 +67,10 @@ app.post("/failure", function(req, res){
     res.redirect("/");
 })
 
+app.post("/success", function(req, res){
+    res.redirect("https://www.linkedin.com/in/michael-kain-dev");
+})
+
 app.listen(process.env.PORT || 3000, function(){
     var url="http://localhost:3000";
     console.log("App is listening on port 3000: "+url);
