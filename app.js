@@ -68,7 +68,7 @@ app.post("/failure", function(req, res){
 })
 
 app.post("/success", function(req, res){
-    res.redirect("https://www.linkedin.com/in/michael-kain-dev");
+    res.redirect("https://crypto-live-viewer.onrender.com");
 })
 
 app.listen(process.env.PORT || 3000, function(){
